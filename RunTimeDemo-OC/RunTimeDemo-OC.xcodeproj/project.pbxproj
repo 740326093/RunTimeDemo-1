@@ -15,6 +15,7 @@
 		280BBEB62073817600C2222C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BBEB52073817600C2222C /* main.m */; };
 		280BBEC02073817600C2222C /* RunTimeDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BBEBF2073817600C2222C /* RunTimeDemo_OCTests.m */; };
 		280BBECB2073817600C2222C /* RunTimeDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BBECA2073817600C2222C /* RunTimeDemo_OCUITests.m */; };
+		282184DB208ECA0400B8E23F /* UIScrollView+JHRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 282184DA208ECA0400B8E23F /* UIScrollView+JHRefresh.m */; };
 		2826BEC52073ABB400187342 /* UIButton+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2826BEC42073ABB400187342 /* UIButton+JHExtension.m */; };
 		28FC33932074BD2D00924C64 /* UIView+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC33922074BD2D00924C64 /* UIView+JHExtension.m */; };
 		28FC339F2074C6A100924C64 /* UITapGestureRecognizer+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC339E2074C6A100924C64 /* UITapGestureRecognizer+JHExtension.m */; };
@@ -57,6 +58,8 @@
 		280BBEC62073817600C2222C /* RunTimeDemo-OCUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "RunTimeDemo-OCUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		280BBECA2073817600C2222C /* RunTimeDemo_OCUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RunTimeDemo_OCUITests.m; sourceTree = "<group>"; };
 		280BBECC2073817600C2222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		282184D9208ECA0400B8E23F /* UIScrollView+JHRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JHRefresh.h"; sourceTree = "<group>"; };
+		282184DA208ECA0400B8E23F /* UIScrollView+JHRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JHRefresh.m"; sourceTree = "<group>"; };
 		2826BEC32073ABB400187342 /* UIButton+JHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JHExtension.h"; sourceTree = "<group>"; };
 		2826BEC42073ABB400187342 /* UIButton+JHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JHExtension.m"; sourceTree = "<group>"; };
 		28FC33912074BD2D00924C64 /* UIView+JHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JHExtension.h"; sourceTree = "<group>"; };
@@ -123,6 +126,7 @@
 		280BBEA52073817600C2222C /* RunTimeDemo-OC */ = {
 			isa = PBXGroup;
 			children = (
+				282184D8208EC9E700B8E23F /* MJRefresh */,
 				28FC339C2074C6A100924C64 /* 手势扩展 */,
 				28FC33902074BD1300924C64 /* View扩展 */,
 				2826BEB920738A4400187342 /* 防止button暴力点击 */,
@@ -157,6 +161,15 @@
 				280BBECC2073817600C2222C /* Info.plist */,
 			);
 			path = "RunTimeDemo-OCUITests";
+			sourceTree = "<group>";
+		};
+		282184D8208EC9E700B8E23F /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				282184D9208ECA0400B8E23F /* UIScrollView+JHRefresh.h */,
+				282184DA208ECA0400B8E23F /* UIScrollView+JHRefresh.m */,
+			);
+			path = MJRefresh;
 			sourceTree = "<group>";
 		};
 		2826BEB920738A4400187342 /* 防止button暴力点击 */ = {
@@ -403,6 +416,7 @@
 				28FC33A52074D23800924C64 /* NavigationController.m in Sources */,
 				28FC33A22074C95B00924C64 /* UINavigationController+FDFullscreenPopGesture.m in Sources */,
 				2826BEC52073ABB400187342 /* UIButton+JHExtension.m in Sources */,
+				282184DB208ECA0400B8E23F /* UIScrollView+JHRefresh.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -15,6 +15,7 @@
 		280BBEFA2073819300C2222C /* RunTimeDemo_SwiftTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BBEF92073819300C2222C /* RunTimeDemo_SwiftTests.swift */; };
 		280BBF052073819300C2222C /* RunTimeDemo_SwiftUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BBF042073819300C2222C /* RunTimeDemo_SwiftUITests.swift */; };
 		280BC0212074835A00380BE7 /* UITapGestureRecognizer+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 280BC0202074835A00380BE7 /* UITapGestureRecognizer+JHExtension.swift */; };
+		282184DE208ECBC200B8E23F /* ScrollView+JHRefresh.swift in Sources */ = {isa = PBXBuildFile; fileRef = 282184DD208ECBC200B8E23F /* ScrollView+JHRefresh.swift */; };
 		2826BEC22073AB9A00187342 /* UIButton+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2826BEC12073AB9A00187342 /* UIButton+JHExtension.swift */; };
 		28FC33962074BEDB00924C64 /* UIView+JHExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FC33952074BEDB00924C64 /* UIView+JHExtension.swift */; };
 		28FC33A72074D57C00924C64 /* NavigationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28FC33A62074D57C00924C64 /* NavigationController.swift */; };
@@ -53,6 +54,7 @@
 		280BBF042073819300C2222C /* RunTimeDemo_SwiftUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RunTimeDemo_SwiftUITests.swift; sourceTree = "<group>"; };
 		280BBF062073819300C2222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		280BC0202074835A00380BE7 /* UITapGestureRecognizer+JHExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UITapGestureRecognizer+JHExtension.swift"; sourceTree = "<group>"; };
+		282184DD208ECBC200B8E23F /* ScrollView+JHRefresh.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "ScrollView+JHRefresh.swift"; sourceTree = "<group>"; };
 		2826BEC12073AB9A00187342 /* UIButton+JHExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIButton+JHExtension.swift"; sourceTree = "<group>"; };
 		28FC33952074BEDB00924C64 /* UIView+JHExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+JHExtension.swift"; sourceTree = "<group>"; };
 		28FC33A62074D57C00924C64 /* NavigationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationController.swift; sourceTree = "<group>"; };
@@ -112,6 +114,7 @@
 		280BBEE32073819300C2222C /* RunTimeDemo-Swift */ = {
 			isa = PBXGroup;
 			children = (
+				282184DC208ECBC200B8E23F /* MJRefersh */,
 				28FC33942074BEBF00924C64 /* View扩展 */,
 				280BC01F2074831F00380BE7 /* UITapGestureRecognizer的暴力点击 */,
 				2826BEC02073AB7400187342 /* 防止button暴力点击 */,
@@ -150,6 +153,14 @@
 				280BC0202074835A00380BE7 /* UITapGestureRecognizer+JHExtension.swift */,
 			);
 			path = "UITapGestureRecognizer的暴力点击";
+			sourceTree = "<group>";
+		};
+		282184DC208ECBC200B8E23F /* MJRefersh */ = {
+			isa = PBXGroup;
+			children = (
+				282184DD208ECBC200B8E23F /* ScrollView+JHRefresh.swift */,
+			);
+			path = MJRefersh;
 			sourceTree = "<group>";
 		};
 		2826BEC02073AB7400187342 /* 防止button暴力点击 */ = {
@@ -379,6 +390,7 @@
 				28FC33962074BEDB00924C64 /* UIView+JHExtension.swift in Sources */,
 				28FC33A72074D57C00924C64 /* NavigationController.swift in Sources */,
 				280BBEE72073819300C2222C /* ViewController.swift in Sources */,
+				282184DE208ECBC200B8E23F /* ScrollView+JHRefresh.swift in Sources */,
 				2826BEC22073AB9A00187342 /* UIButton+JHExtension.swift in Sources */,
 				280BBEE52073819300C2222C /* AppDelegate.swift in Sources */,
 				280BC0212074835A00380BE7 /* UITapGestureRecognizer+JHExtension.swift in Sources */,
