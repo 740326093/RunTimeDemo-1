@@ -16,6 +16,7 @@
 		280BBEC02073817600C2222C /* RunTimeDemo_OCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BBEBF2073817600C2222C /* RunTimeDemo_OCTests.m */; };
 		280BBECB2073817600C2222C /* RunTimeDemo_OCUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 280BBECA2073817600C2222C /* RunTimeDemo_OCUITests.m */; };
 		282184DB208ECA0400B8E23F /* UIScrollView+JHRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = 282184DA208ECA0400B8E23F /* UIScrollView+JHRefresh.m */; };
+		282184E5208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.m in Sources */ = {isa = PBXBuildFile; fileRef = 282184E4208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.m */; };
 		2826BEC52073ABB400187342 /* UIButton+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2826BEC42073ABB400187342 /* UIButton+JHExtension.m */; };
 		28FC33932074BD2D00924C64 /* UIView+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC33922074BD2D00924C64 /* UIView+JHExtension.m */; };
 		28FC339F2074C6A100924C64 /* UITapGestureRecognizer+JHExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 28FC339E2074C6A100924C64 /* UITapGestureRecognizer+JHExtension.m */; };
@@ -60,6 +61,8 @@
 		280BBECC2073817600C2222C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		282184D9208ECA0400B8E23F /* UIScrollView+JHRefresh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JHRefresh.h"; sourceTree = "<group>"; };
 		282184DA208ECA0400B8E23F /* UIScrollView+JHRefresh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JHRefresh.m"; sourceTree = "<group>"; };
+		282184E3208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIScrollView+JHEmptyDataSet.h"; sourceTree = "<group>"; };
+		282184E4208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIScrollView+JHEmptyDataSet.m"; sourceTree = "<group>"; };
 		2826BEC32073ABB400187342 /* UIButton+JHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIButton+JHExtension.h"; sourceTree = "<group>"; };
 		2826BEC42073ABB400187342 /* UIButton+JHExtension.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JHExtension.m"; sourceTree = "<group>"; };
 		28FC33912074BD2D00924C64 /* UIView+JHExtension.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIView+JHExtension.h"; sourceTree = "<group>"; };
@@ -126,6 +129,7 @@
 		280BBEA52073817600C2222C /* RunTimeDemo-OC */ = {
 			isa = PBXGroup;
 			children = (
+				282184E2208ED07700B8E23F /* DZNEmptyDataSet */,
 				282184D8208EC9E700B8E23F /* MJRefresh */,
 				28FC339C2074C6A100924C64 /* 手势扩展 */,
 				28FC33902074BD1300924C64 /* View扩展 */,
@@ -170,6 +174,15 @@
 				282184DA208ECA0400B8E23F /* UIScrollView+JHRefresh.m */,
 			);
 			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		282184E2208ED07700B8E23F /* DZNEmptyDataSet */ = {
+			isa = PBXGroup;
+			children = (
+				282184E3208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.h */,
+				282184E4208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.m */,
+			);
+			path = DZNEmptyDataSet;
 			sourceTree = "<group>";
 		};
 		2826BEB920738A4400187342 /* 防止button暴力点击 */ = {
@@ -408,6 +421,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				282184E5208ED07700B8E23F /* UIScrollView+JHEmptyDataSet.m in Sources */,
 				28FC339F2074C6A100924C64 /* UITapGestureRecognizer+JHExtension.m in Sources */,
 				28FC33932074BD2D00924C64 /* UIView+JHExtension.m in Sources */,
 				280BBEAB2073817600C2222C /* ViewController.m in Sources */,
